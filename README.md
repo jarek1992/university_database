@@ -30,17 +30,18 @@ git clone https://github.com/jarek1992/student_database.git
 cd student_database
 ```
 3. Compile the Program<br>
-I built and tested the project using CMake. You can build it using the tool 'g++'. For this instruction, I recommend using the CMake tool.<br>
+I built and tested the project using CMake. You can build it using the tool 'g++'. For the purposes of this manual, I recommend using the CMake tool.<br>
 <ul>
- <li>for CMake use commands:</li>
- <ul>
-  
+ <li>Create a build directory and run CMake:</li>
+ 
  ```cpp
 cmake -B build .
+```
+ <li>Compile the project:</li>
+ 
+ ```cpp
 cmake --build build --config Release 
 ```
-</ul>
-
 <i>This will compile the source files into an executable named university_database.</i>
 </ul>
 
