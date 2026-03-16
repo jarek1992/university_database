@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.11.0)
-project(univesity_Database)
+project(university_Database)
 
 set(CMAKE CMAKE_CXX_STANDARD 17)
 set(CMAKE CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -16,5 +16,3 @@ add_library(${PROJECT_NAME}-lib STATIC ${SRC})
 
 add_executable(${PROJECT_NAME} source/main.cpp)
 target_link_libraries(${PROJECT_NAME} ${PROJECT_NAME}-lib)
-
-
